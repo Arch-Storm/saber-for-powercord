@@ -1,0 +1,230 @@
+:root {
+    --server-container: calc(var(--server-size) + 40px) !important;
+}
+
+#app-mount {
+    .typeWindows-1za-n7 {
+        width: 8%;
+        .wordmark-2iDDfm:after {
+            content: "\/Saber\/";
+            top: 200%;
+            right: 150%;
+        }
+        .winButton-iRh8-Z {
+            width: 45px;
+            height: 50px;
+            svg {
+                padding-top: 10px;
+            }
+            &:hover {
+                background-color: transparent;
+            }
+        }
+        .winButtonClose-1HsbF- {
+            width: 50px;
+            svg {
+                padding-right: 7.5px;
+            }
+            &:hover {
+                color: var(--rs-dnd-color);
+            }
+        }
+        .winButtonMinMax-PBQ2gm {
+            &:nth-child(3):hover {
+                color: var(--rs-online-color);
+            }
+            &:nth-child(4):hover {
+                color: var(--rs-idle-color);
+            }
+        }
+    }
+    .container-2lgZY8 {
+        .inviteToolbar-3F-l2g {
+            margin-left: 4px;
+        }
+        .children-19S4PO:after {
+            background: var(--background-modifier-accent);
+            width: 1px;
+            margin: 0 8px;
+        }
+        background-color: var(--channeltextarea-background);
+        .sidebar-2K8pFh, .container-1D34oG, .wrapper-3NnKdC {
+            box-sizing: border-box;
+            border: 4px solid var(--channeltextarea-background);
+            border-radius: 18px !important;
+            .scroller-1Bvpku {
+                right: 4px;
+            }
+        }
+        .wrapper-3NnKdC {
+            padding-top: 72px;
+            margin: 4px 4px 0 4px;
+            height: calc(100vw - 8px) !important;
+        }
+        .base-3dtUhz {
+            margin-top: 4px;
+            .container-1D34oG {
+                padding-right: 0;
+                margin-right: 4px;
+                margin-bottom: 4px;
+                left: 0;
+            }
+            .sidebar-2K8pFh {
+                margin: 0 0 4px 4px;
+                .channel-2QD9_O {
+                    margin-right: 8px;
+                }
+            }
+            .applicationStore-1pNvnv{
+                border: 4px solid var(--channeltextarea-background);
+                border-radius: 18px !important;
+                margin: 0 4px 4px 0;
+                padding-right: 0;
+                left: 0;
+            }
+            .chat-3bRxxu {
+                border: 4px solid var(--channeltextarea-background);
+                border-radius: 18px !important;
+                margin: 0 4px 4px 0;
+                padding-right: 0;
+                left: 0;
+                .chatContent-a9vAAp {
+                    margin-right: 0;
+                    .unreadPill-2HyYtt {
+                        line-height: 0;
+                    }
+                    .message-2qnXI6 {
+                        margin-right: 8px;
+                        .contents-2mQqc9 {
+                            margin-top: 8px;
+                        }
+                        .repliedTextPreview-2NBljf.clickable-1bVtEA {
+                            margin-top: 12px;
+                        }
+                        .repliedMessage-VokQwo {
+                            line-height: 1.75rem;
+                        }
+                    }
+                }
+            }
+            .panels-j1Uci_ {
+                .powercord-spotify {
+                    right: 7.5%;
+                    top: 10px;
+                    margin-top: 28px;
+                    transition: margin-top .2s;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    background: var(--background-primary) !important;
+                    width: 360px
+                }
+                .powercord-spotify.hover {
+                    margin-top: 20px;
+                    .spotify-extra-controls + .spotify-seek {
+                        margin-top: -18px;
+                    }
+                    .container-3baos1 {
+                        margin-top: -5px;
+                    }
+                }
+                .container-3baos1 {
+                    .avatarWrapper-2yR4wp {
+                        top: 34px;
+                        border-radius: 18px;
+                        left: 12px;
+                        &::after {
+                            right: -5px;
+                        }
+                    }
+                    .nameTag-3uD-yy, .flex-1xMQg5:not(.spotify-buttons) {
+                        top: 47px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+::placeholder, body, button, input, select, textarea {
+    font-family: Fira Sans,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.markup-2BOw-j code.inline {
+    font-family: Fira Code,Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+}
+
+typeWindows-1za-n7 withFrame-haYltI titleBar-AC4pGV horizontalReverse-3tRjY7 flex-1O1GKY directionRowReverse-m8IjIq justifyStart-2NDFzi alignStretch-DpGPf3 {
+  width: 5%;
+  margin-left: auto;
+}
+
+.wordmark-2iDDfm {
+  left: auto;
+  right: 0;
+}
+
+.app-1q1i1E {
+  top: 0;
+  margin-top: -63px;
+}
+
+.buttons-3JBrkn {
+  margin-right: 0 !important;
+}
+
+.form-2fGMdU {
+  padding-right: 32px;
+}
+
+.theme-dark .chatContent-a9vAAp {
+  margin-right: -45px;
+}
+
+.theme-dark .wordmark-2iDDfm:after {
+  background: -webkit-linear-gradient(135deg, rgb(70, 91, 164) 0%, rgb(134, 153, 223) 74%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.typeWindows-1za-n7 {
+  width: 5%;
+  height: 60px !important;
+  margin-left: auto;
+}
+
+:root {
+  --server-container: calc(var(--server-size) + 30px);
+}
+
+#app-mount .guilds-1SWlCJ [class*=listItem]:not([class*=listItemWrapper]) {
+  margin: var(--server-spacing) 20px;
+}
+
+.powercord-spotify > .container-3baos1 > .nameTag-3uD-yy {
+    margin-left: 8px;
+}
+
+.powercord-spotify {
+  position: fixed;
+  width: 240px;
+  top: 21px;
+  right: 100px;
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: var(--background-modifier-accent);
+    right: -12px;
+    bottom: 5px;
+    height: 45px;
+    width: 2px;
+  }
+  &:hover {
+    &::after {
+      height: 57px;
+    }
+  }
+}
+
+#app-mount .panels-j1Uci_ .powercord-spotify .container-3baos1 {
+	height: 52px;
+}
