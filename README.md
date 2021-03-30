@@ -9,3 +9,5 @@ Requirements:<br/>
 My Fork of the Slook-Theme: https://github.com/Arch-Storm/slook_theme <br/>
 Revamped Userarea: https://github.com/Discord-Theme-Addons/revamped-userarea <br/>
 Horizontal Serverlist: https://github.com/DiscordStyles/HorizontalServerList <br/>
+
+Open your themes folder with CMD or Powershell and enter: ```git clone https://github.com/Arch-Storm/saber-for-powercord```
