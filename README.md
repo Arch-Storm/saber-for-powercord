@@ -13,7 +13,7 @@ Horizontal Serverlist: https://github.com/DiscordStyles/HorizontalServerList <br
 
 > Right Click "themes" and click Git Bash Here
 
-> Type "git clone https://github.com/leeprky/slook-theme"
+> Type "git clone https://github.com/Arch-Storm/saber-for-powercord"
 
 > Refresh Discord (CTRL + R)
 
