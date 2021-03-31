@@ -36,7 +36,9 @@ html:root {
   --header-primary: #84ffff;
   --accent-gradient: 315deg, #009999 0%, #99ffff 76%;
   --accent-gradient-dark: 135deg, #004d4d 24%, #00ffff 100%;
-  --spotify-color: #84ffff; }
+  --spotify-color: #84ffff;
+  --alt-color: 0, 138, 138;
+  --alt-color-light: #00b3b3; }
 
 ::placeholder, body, button, input, select, textarea {
   font-family: Fira Sans,Whitney,Helvetica Neue,Helvetica,Arial,sans-serif; }
@@ -90,16 +92,28 @@ html:root {
       box-sizing: border-box;
       border: 4px solid var(--border-background);
       border-radius: 18px !important; }
-      #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku {
-        right: -6px; }
-        #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .wrapper-25eVIn:before, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .wrapper-25eVIn:before, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .wrapper-25eVIn:before {
-          animation: 2s server-unread infinite; }
-        #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .wrapper-25eVIn .numberBadge-2s8kKX, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .wrapper-25eVIn .numberBadge-2s8kKX, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .wrapper-25eVIn .numberBadge-2s8kKX {
-          animation: 2s server-mention infinite; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .circleIconButton-1QV--U, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .circleIconButton-1QV--U, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .circleIconButton-1QV--U {
+        color: var(--header-primary); }
+        #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .circleIconButton-1QV--U.selected-1JjBPm, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .circleIconButton-1QV--U.selected-1JjBPm, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .circleIconButton-1QV--U.selected-1JjBPm {
+          background: #008a8a; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .wrapper-25eVIn:before, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .wrapper-25eVIn:before, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .wrapper-25eVIn:before {
+        animation: 2s server-unread infinite; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .wrapper-25eVIn .numberBadge-2s8kKX, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .wrapper-25eVIn .numberBadge-2s8kKX, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .wrapper-25eVIn .numberBadge-2s8kKX {
+        animation: 2s server-mention infinite; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku div[aria-label*="Servers"] > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .wrapper-3Njo_c > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .tutorialContainer-2sGCg9 > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku .tutorialContainer-30WoTp > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku div[aria-label*="Servers"] > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .wrapper-3Njo_c > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .tutorialContainer-2sGCg9 > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku .tutorialContainer-30WoTp > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku div[aria-label*="Servers"] > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .wrapper-3Njo_c > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .tutorialContainer-2sGCg9 > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku .tutorialContainer-30WoTp > .listItem-GuPuDH {
+        margin-left: 16px; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .sidebar-2K8pFh .scroller-1Bvpku > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .container-1D34oG .scroller-1Bvpku > .listItem-GuPuDH, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .scroller-1Bvpku > .listItem-GuPuDH {
+        margin-left: 16px; }
     #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC {
       padding-top: 72px;
       margin: 4px 4px 0 4px;
       height: calc(100vw - 8px) !important; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .pill-1aYSec > .wrapper-sa6paO, #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC .pill-3N7f9r {
+        display: none; }
+      #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC [class*="pill"] {
+        top: calc(var(--server-size) / -1 + var(--server-size) / 2 - -54px) !important; }
+        #app-mount .app-1q1i1E .container-2lgZY8 .wrapper-3NnKdC [class*="pill"] span {
+          border-radius: 4px 0 0 4px; }
     #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz {
       margin-top: 4px; }
       #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .container-1D34oG {

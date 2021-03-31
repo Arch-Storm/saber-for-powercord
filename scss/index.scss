@@ -46,6 +46,8 @@ html:root {
     --accent-gradient: 315deg, #009999 0%, #99ffff 76%;
     --accent-gradient-dark: 135deg, #004d4d 24%, #00ffff 100%;
     --spotify-color: #84ffff;
+    --alt-color: 0, 138, 138;
+    --alt-color-light: #00b3b3;
 }
 
 ::placeholder, body, button, input, select, textarea {
@@ -118,7 +120,12 @@ html:root {
                 border: 4px solid var(--border-background);
                 border-radius: 18px !important;
                 .scroller-1Bvpku {
-                    right: -6px;
+                    .circleIconButton-1QV--U {
+                        color: var(--header-primary);
+                        &.selected-1JjBPm {
+                            background: rgb(0, 138, 138);
+                        }
+                    }
                     .wrapper-25eVIn {
                         &:before {
                             animation: 2s server-unread infinite;
@@ -127,12 +134,29 @@ html:root {
                                 animation: 2s server-mention infinite;
                         }
                     }
+                    div[aria-label*="Servers"], .wrapper-3Njo_c, .tutorialContainer-2sGCg9, .tutorialContainer-30WoTp {
+                        > .listItem-GuPuDH {
+                            margin-left: 16px;
+                        }
+                    }
+                    > .listItem-GuPuDH {
+                        margin-left: 16px;
+                    }
                 }
             }
             .wrapper-3NnKdC {
                 padding-top: 72px;
                 margin: 4px 4px 0 4px;
                 height: calc(100vw - 8px) !important;
+                .pill-1aYSec > .wrapper-sa6paO, .pill-3N7f9r {
+                    display: none;
+                }
+                [class*="pill"] {
+                    top: calc(var(--server-size) / -1 + var(--server-size) / 2 - -54px) !important;
+                    span {
+                        border-radius: 4px 0 0 4px;
+                    }
+                }
             }
             .base-3dtUhz {
                 margin-top: 4px;

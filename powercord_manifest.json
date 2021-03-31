@@ -3,7 +3,7 @@
     "description": "Custom patch for Slook",
     "version": "1.0.1",
     "author": "-Storm-#2143",
-    "theme": "saber.theme.css",
+    "theme": "saber.theme.scss",
     "consent": "false",
     "license": "MIT"
 }
