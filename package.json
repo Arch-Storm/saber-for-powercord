@@ -1,0 +1,15 @@
+{
+  "name": "saber-for-powercord",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "-Storm-#2143",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
