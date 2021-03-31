@@ -1,4 +1,4 @@
-### Probably still full of bugs and bad code
+# Probably still full of bugs and bad code
 
 ## Installation
 
