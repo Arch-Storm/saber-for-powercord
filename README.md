@@ -10,8 +10,11 @@ Horizontal Serverlist: https://github.com/DiscordStyles/HorizontalServerList <br
 ## How To Install SABER for SLOOK V2.0
 
 > Head to C:\Users\<USER>\powercord\src\Powercord
+
 > Right Click "themes" and click Git Bash Here
+
 > Type "git clone https://github.com/leeprky/slook-theme"
+
 > Refresh Discord (CTRL + R)
 
 ## License
