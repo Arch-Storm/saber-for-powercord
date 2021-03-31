@@ -102,6 +102,19 @@ html:root {
     .app-1q1i1E {
         top: 0;
         margin-top: -63px;
+        .powercord-updater {
+            background-color: var(--background-tertiary);
+            > .header, > .contents, > .buttons {
+                background-color: var(--background-tertiary);
+                .inner {
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+            .colorGreen-29iAKY {
+                color: var(--header-primary);
+                border-color: var(--header-primary);
+            }
+        }
         .markup-2BOw-j code.inline {
             font-family: Fira Code,Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
         }  
@@ -225,6 +238,9 @@ html:root {
                         .message-2qnXI6 {
                             margin-right: 8px;
                             border-radius: 10px;
+                            .avatar-1BDn8e {
+                                border-radius: 25%;
+                            }
                             .contents-2mQqc9 {
                                 margin-top: 8px;
                             }
@@ -263,6 +279,7 @@ html:root {
                             top: 34px;
                             border-radius: 18px;
                             left: 12px;
+                            animation: none;
                             &::after {
                                 right: -5px;
                             }

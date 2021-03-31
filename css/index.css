@@ -78,6 +78,15 @@ html:root {
 #app-mount .app-1q1i1E {
   top: 0;
   margin-top: -63px; }
+  #app-mount .app-1q1i1E .powercord-updater {
+    background-color: var(--background-tertiary); }
+    #app-mount .app-1q1i1E .powercord-updater > .header, #app-mount .app-1q1i1E .powercord-updater > .contents, #app-mount .app-1q1i1E .powercord-updater > .buttons {
+      background-color: var(--background-tertiary); }
+      #app-mount .app-1q1i1E .powercord-updater > .header .inner, #app-mount .app-1q1i1E .powercord-updater > .contents .inner, #app-mount .app-1q1i1E .powercord-updater > .buttons .inner {
+        background-color: var(--background-secondary-alt); }
+    #app-mount .app-1q1i1E .powercord-updater .colorGreen-29iAKY {
+      color: var(--header-primary);
+      border-color: var(--header-primary); }
   #app-mount .app-1q1i1E .markup-2BOw-j code.inline {
     font-family: Fira Code,Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace; }
   #app-mount .app-1q1i1E .container-2lgZY8 {
@@ -166,6 +175,8 @@ html:root {
           #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .chat-3bRxxu .chatContent-a9vAAp .message-2qnXI6 {
             margin-right: 8px;
             border-radius: 10px; }
+            #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .chat-3bRxxu .chatContent-a9vAAp .message-2qnXI6 .avatar-1BDn8e {
+              border-radius: 25%; }
             #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .chat-3bRxxu .chatContent-a9vAAp .message-2qnXI6 .contents-2mQqc9 {
               margin-top: 8px; }
             #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .chat-3bRxxu .chatContent-a9vAAp .message-2qnXI6 .repliedMessage-VokQwo {
@@ -191,7 +202,8 @@ html:root {
       #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 34px;
         border-radius: 18px;
-        left: 12px; }
+        left: 12px;
+        animation: none; }
         #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp::after {
           right: -5px; }
       #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy, #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
