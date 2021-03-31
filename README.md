@@ -17,6 +17,11 @@ Horizontal Serverlist: https://github.com/DiscordStyles/HorizontalServerList <br
 
 > Refresh Discord (CTRL + R)
 
+### Recommended Additions:<br/>
+https://github.com/NYRI4/Discolored<br/>
+https://github.com/Discord-Theme-Addons/gradientbuttons-v2<br/>
+https://github.com/snappercord/Settings-Icons<br/>
+
 ## License
 
 MIT, see LICENSE.md for more details
