@@ -1,7 +1,7 @@
 {
     "name": "Saber",
     "description": "Custom patch for Slook",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "-Storm-#2143",
     "theme": "index.scss",
     "consent": "false",
