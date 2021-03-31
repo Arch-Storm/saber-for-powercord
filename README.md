@@ -1,13 +1,23 @@
-# saber-for-powercord
-A Theme-Patch for the Slook Theme for Discord.
+### Probably still full of bugs and bad code
 
-## Probably still full of bugs and bad code
+## Installation
 
-### Installation
-
-Requirements:<br/>
-My Fork of the Slook-Theme: https://github.com/Arch-Storm/slook_theme <br/>
+### Install Requirements:<br/>
+The Slook-Theme: https://github.com/leeprky/slook_theme <br/>
 Revamped Userarea: https://github.com/Discord-Theme-Addons/revamped-userarea <br/>
 Horizontal Serverlist: https://github.com/DiscordStyles/HorizontalServerList <br/>
 
-Open your themes folder with CMD or Powershell and enter:<br/>```git clone https://github.com/Arch-Storm/saber-for-powercord```
+## How To Install SABER for SLOOK V2.0
+
+> Head to C:\Users\<USER>\powercord\src\Powercord
+> Right Click "themes" and click Git Bash Here
+> Type "git clone https://github.com/leeprky/slook-theme"
+> Refresh Discord (CTRL + R)
+
+## License
+
+MIT, see LICENSE.md for more details
+    
+## Previews
+
+![preview](./previews/def-1.jpg)
