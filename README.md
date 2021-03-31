@@ -7,6 +7,8 @@ The Slook-Theme: https://github.com/leeprky/slook_theme <br/>
 Revamped Userarea: https://github.com/Discord-Theme-Addons/revamped-userarea <br/>
 Horizontal Serverlist: https://github.com/DiscordStyles/HorizontalServerList <br/>
 
+### Install SABER:
+
 > Head to C:\Users\<USER>\powercord\src\Powercord
 
 > Right Click "themes" and click Git Bash Here
