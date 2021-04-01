@@ -3,7 +3,7 @@
     color: var(--foreground-selection);
 }
 
-html:root, .theme-dark {
+html:root, .theme-dark, .theme-light {
     --server-container: calc(var(--server-size) + 40px) !important;
     --border-background: #000;
     --background-primary: #0F111A;
@@ -13,16 +13,18 @@ html:root, .theme-dark {
     --background-secondary-alt-2: #2a2e3cd7;
     --background-tertiary: #1A1C25;
     --background-tertiary-alt: #15171e;
-    --background-accent: #1e1e20;
+    --background-accent: #1d2030;
     --background-floating: #17181caf;
     --background-mentioned: rgb(132, 255, 255, 0.055);
     --background-mentioned-hover: rgb(132, 255, 255, 0.1);
     --background-selection: #717CB480;
     --foreground-selection: #FFFFFF;
     --text-normal: #8F93A2;
+    --text-link: #00b3b3;
     --header-primary: #84ffff;
-    --accent-gradient: 315deg, #009999 0%, #99ffff 76%;
-    --accent-gradient-dark: 135deg, #004d4d 24%, #00ffff 100%;
+    --accent-gradient: 315deg, #2e6b6b 0%, #5cd6d6 74%;
+    --accent-gradient-logo: 300deg, #399999 0%, #75f0f0 74%;
+    --accent-gradient-alt: 135deg, #2e6b6b 26%, #5cd6d6 100%;
     --spotify-color: #84ffff;
     --alt-color: 0, 138, 138;
     --alt-color-light: #00b3b3;
@@ -35,8 +37,17 @@ html:root, .theme-dark {
 }
 
 #app-mount {  
+    &::after {
+        content: "";
+        position: fixed;
+        top: 9px;
+        right: 498px;
+        width:20px;
+        height: 72px;
+        background: linear-gradient(90deg, #0000 0%, #1A1C25FF 85%);
+    }
     .typeWindows-1za-n7 {
-        width: 8%;
+        width: 150px;
         height: 60px !important;
         margin-left: auto;
         .wordmark-2iDDfm {
@@ -46,7 +57,7 @@ html:root, .theme-dark {
                 content: "\/Saber\/";
                 top: 200%;
                 right: 150%;
-                background: linear-gradient(var(--accent-gradient));
+                background: linear-gradient(var(--accent-gradient-logo));
                 -webkit-background-clip: text;
                 background-clip: text;
             }
@@ -81,7 +92,7 @@ html:root, .theme-dark {
     }
     .app-1q1i1E {
         top: 0;
-        margin-top: -63px;
+        margin-top: -64px;
         .powercord-updater {
             background-color: var(--background-tertiary);
             > .header, > .contents, > .buttons {
@@ -102,13 +113,13 @@ html:root, .theme-dark {
             .inviteToolbar-3F-l2g {
                 margin-left: 4px;
             }
+            .item-3HknzM[aria-label*="Add Friend"] {
+                background-color: rgb(0, 138, 138) !important;
+            }
             .children-19S4PO:after {
                 background: var(--background-modifier-accent);
                 width: 1px;
                 margin: 0 8px;
-                .item-3HknzM[aria-label*="Friend"] {
-                    background-color: rgb(0, 138, 138);
-                }
             }
             background-color: var(--border-background);
             .sidebar-2K8pFh, .container-1D34oG, .wrapper-3NnKdC {
@@ -122,7 +133,7 @@ html:root, .theme-dark {
                             background: rgb(0, 138, 138);
                         }
                     }
-                    div[aria-label*="Servers"], .wrapper-3Njo_c, .tutorialContainer-2sGCg9, .tutorialContainer-30WoTp {
+                    div[aria-label*="Servers"], .wrapper-3Njo_c, .tutorialContainer-2sGCg9, .tutorialContainer-30WoTp, div[style*="opacity"] {
                         > .listItem-GuPuDH {
                             margin-left: 16px;
                         }
@@ -136,6 +147,15 @@ html:root, .theme-dark {
                 padding-top: 72px;
                 margin: 4px 4px 0 4px;
                 height: calc(100vw - 8px) !important;
+                .tree-2wKJdG {
+                    margin-bottom: 490px;
+                    .unreadMentionsIndicatorBottom-2mDYbI {
+                        bottom: 500px;
+                        .mention-1f5kbO {
+                            opacity: 1;
+                        }
+                    }
+                }
                 .pill-1aYSec > .wrapper-sa6paO, .pill-3N7f9r {
                     display: none;
                 }
@@ -171,8 +191,10 @@ html:root, .theme-dark {
                     margin: 0 0 4px 4px;
                     background-color: var(--background-tertiary);
                     padding-right: 0;
+                    width: auto;
                     .panels-j1Uci_ {
                         background-color: var(--background-secondary);
+                        height: 0;
                     }
                     .scroller-1JbKMe, .scroller-RmtA4e {
                         background-color: var(--background-tertiary-alt);
@@ -235,7 +257,7 @@ html:root, .theme-dark {
                 .panels-j1Uci_ {
                     .powercord-spotify {
                         position: fixed;
-                        right: 7.5%;
+                        right: 135px;
                         top: 10px;
                         margin-top: 28px;
                         transition: margin-top .2s;
@@ -244,7 +266,7 @@ html:root, .theme-dark {
                         background: var(--background-primary) !important;
                         width: 360px;
                         .spotify-seek-bar {
-                            background: linear-gradient(var(--accent-gradient-dark));
+                            background: linear-gradient(var(--accent-gradient-alt));
                         }
                     }
                     .powercord-spotify.hover {
@@ -275,10 +297,33 @@ html:root, .theme-dark {
         }
     }
     .layerContainer-yqaFcK {
-        .header-1TKi98, .content-1LAB8Z, .footer-2gL1pp {
+        .wrapper-1-Fsb8 {
+            background-color: transparent;
+        }
+        #gif-picker-tab-panel {
+            background-color: var(--background-tertiary-alt);
+        }
+        .container-1CE3eW {
             background-color: var(--background-primary);
-            .colorHeaderPrimary-26Jzh- {
-                color: var(--header-primary);
+            .header-1TKi98, .content-1LAB8Z, .footer-2gL1pp {
+                background-color: var(--background-primary);
+                .colorHeaderPrimary-26Jzh- {
+                    color: var(--header-primary);
+                }
+                .container-UC8Ug1 {
+                    background-color: var(--background-tertiary);
+                }
+                .lookBlank-3eh9lL {
+                    .contents-18-Yxp {
+                        color: var(--text-normal);
+                    }
+                }
+                .title-3sZWYQ {
+                    color: var(--header-primary);
+                }
+                .lookFilled-1Gx00P.colorBrand-3pXr91:not(.buttonActive-3FrkXp) {
+                    background: linear-gradient(var(--accent-gradient));
+                }
             }
         }
     }
