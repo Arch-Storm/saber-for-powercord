@@ -2,7 +2,7 @@
   background: var(--background-selection);
   color: var(--foreground-selection); }
 
-html:root {
+html:root, .theme-dark {
   --server-container: calc(var(--server-size) + 40px) !important;
   --border-background: #000;
   --background-primary: #0F111A;
@@ -199,3 +199,8 @@ html:root {
           right: -5px; }
       #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy, #app-mount .app-1q1i1E .container-2lgZY8 .base-3dtUhz .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
         top: 47px; }
+
+#app-mount .layerContainer-yqaFcK .header-1TKi98, #app-mount .layerContainer-yqaFcK .content-1LAB8Z, #app-mount .layerContainer-yqaFcK .footer-2gL1pp {
+  background-color: var(--background-primary); }
+  #app-mount .layerContainer-yqaFcK .header-1TKi98 .colorHeaderPrimary-26Jzh-, #app-mount .layerContainer-yqaFcK .content-1LAB8Z .colorHeaderPrimary-26Jzh-, #app-mount .layerContainer-yqaFcK .footer-2gL1pp .colorHeaderPrimary-26Jzh- {
+    color: var(--header-primary); }

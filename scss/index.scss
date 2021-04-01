@@ -3,7 +3,7 @@
     color: var(--foreground-selection);
 }
 
-html:root {
+html:root, .theme-dark {
     --server-container: calc(var(--server-size) + 40px) !important;
     --border-background: #000;
     --background-primary: #0F111A;
@@ -271,6 +271,14 @@ html:root {
                         }
                     }
                 }
+            }
+        }
+    }
+    .layerContainer-yqaFcK {
+        .header-1TKi98, .content-1LAB8Z, .footer-2gL1pp {
+            background-color: var(--background-primary);
+            .colorHeaderPrimary-26Jzh- {
+                color: var(--header-primary);
             }
         }
     }
