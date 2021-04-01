@@ -1,27 +1,3 @@
-@keyframes server-unread {
-    0% {
-      box-shadow: 0 0 0 0 var(--unread-color);
-    }
-    70% {
-      box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-    }
-    100% {
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-}
-  
-  @keyframes server-mention {
-    0% {
-      box-shadow: 0 0 0 0 var(--mention-color);
-    }
-    70% {
-      box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-    }
-    100% {
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-}
-
 *::selection { 
     background: var(--background-selection);
     color: var(--foreground-selection);
@@ -37,6 +13,8 @@ html:root {
     --background-secondary-alt-2: #2a2e3cd7;
     --background-tertiary: #1A1C25;
     --background-tertiary-alt: #15171e;
+    --background-accent: #1e1e20;
+    --background-floating: #17181caf;
     --background-mentioned: rgb(132, 255, 255, 0.055);
     --background-mentioned-hover: rgb(132, 255, 255, 0.1);
     --background-selection: #717CB480;
@@ -48,6 +26,8 @@ html:root {
     --spotify-color: #84ffff;
     --alt-color: 0, 138, 138;
     --alt-color-light: #00b3b3;
+    --background-modifier-hover:  rgba(72, 77, 101, 0.16);
+    --background-modifier-active:  rgba(72, 77, 101, 0.24);
 }
 
 ::placeholder, body, button, input, select, textarea {
@@ -126,6 +106,9 @@ html:root {
                 background: var(--background-modifier-accent);
                 width: 1px;
                 margin: 0 8px;
+                .item-3HknzM[aria-label*="Friend"] {
+                    background-color: rgb(0, 138, 138);
+                }
             }
             background-color: var(--border-background);
             .sidebar-2K8pFh, .container-1D34oG, .wrapper-3NnKdC {
@@ -137,14 +120,6 @@ html:root {
                         color: var(--header-primary);
                         &.selected-1JjBPm {
                             background: rgb(0, 138, 138);
-                        }
-                    }
-                    .wrapper-25eVIn {
-                        &:before {
-                            animation: 2s server-unread infinite;
-                        }
-                        .numberBadge-2s8kKX {
-                                animation: 2s server-mention infinite;
                         }
                     }
                     div[aria-label*="Servers"], .wrapper-3Njo_c, .tutorialContainer-2sGCg9, .tutorialContainer-30WoTp {
@@ -184,6 +159,9 @@ html:root {
                     }
                     .peopleColumn-29fq28, .nowPlayingColumn-2sl4cE {
                         background-color: var(--background-tertiary-alt);
+                        .container-2lgZY8 .thin-1ybCId {
+                            width: auto;
+                        }
                     }
                     .inset-3sAvek {
                         background-color: var(--background-secondary-alt);
@@ -192,6 +170,7 @@ html:root {
                 .sidebar-2K8pFh {
                     margin: 0 0 4px 4px;
                     background-color: var(--background-tertiary);
+                    padding-right: 0;
                     .panels-j1Uci_ {
                         background-color: var(--background-secondary);
                     }
@@ -220,6 +199,9 @@ html:root {
                     left: 0;
                     .title-3qD0b- {
                         background-color: var(--background-secondary);
+                    }
+                    .member-3-YXUe {
+                        margin-left: 0 8px;
                     }
                     .chatContent-a9vAAp {
                         margin-right: 0;
