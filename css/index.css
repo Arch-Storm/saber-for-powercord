@@ -49,11 +49,16 @@ html:root, .theme-dark, .theme-light {
   #app-mount .typeWindows-1za-n7 .wordmark-2iDDfm {
     left: auto;
     right: 0; }
+    #app-mount .typeWindows-1za-n7 .wordmark-2iDDfm svg {
+      display: none; }
     #app-mount .typeWindows-1za-n7 .wordmark-2iDDfm:after {
       content: "\/Saber\/";
+      position: absolute;
+      font-family: 'Discord', sans-serif;
+      font-size: 18px;
       top: 200%;
       right: 150%;
-      background: linear-gradient(var(--accent-gradient-logo));
+      background: linear-gradient(300deg, #399999 0%, #75f0f0 74%);
       -webkit-background-clip: text;
       background-clip: text; }
   #app-mount .typeWindows-1za-n7 .winButton-iRh8-Z {
