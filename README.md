@@ -1,3 +1,5 @@
+# Archived due to slook being archived
+
 # Probably still full of bugs and bad code
 
 ## Installation
